@@ -6,6 +6,7 @@ theme = "PaperMod"
 
 [params]
   author = "丁志强"
+  DateFormat = "2006年1月2日"
   description = "记录与 Hermes Agent 一起折腾的一切"
   ShowReadingTime = true
   ShowPostNavLinks = true
