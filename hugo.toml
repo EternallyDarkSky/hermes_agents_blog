@@ -1,0 +1,31 @@
+baseURL = "https://EternallyDarkSky.github.io/hermes_agents_blog/"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh-cn"
+title = "Hermes Agents Blog"
+theme = "PaperMod"
+
+[params]
+  author = "丁志强"
+  description = "记录与 Hermes Agent 一起折腾的一切"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowShareButtons = false
+
+[params.homeInfoParams]
+  Title = "Hermes Agents Blog"
+  Content = "欢迎来到 Hermes Agent World —— 这里记录与 AI Agent 协作的一切。"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/EternallyDarkSky"
+
+[permalinks]
+  posts = "/posts/:slug/"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    noClasses = false
