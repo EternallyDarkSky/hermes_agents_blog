@@ -20,9 +20,6 @@ theme = "PaperMod"
   name = "github"
   url = "https://github.com/EternallyDarkSky"
 
-[permalinks]
-  posts = "/posts/:slug/"
-
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
